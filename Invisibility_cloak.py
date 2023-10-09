@@ -1,12 +1,9 @@
-# Creating a VideoCapture object
-# This will be used for image acquisition later in the code.
 import numpy as np
 import cv2
 import time
+
 cap = cv2.VideoCapture(0)
- 
-# We give some time for the camera to warm-up!
-print("Wait 5 seconds")
+
 time.sleep(3)
  
 background=0
